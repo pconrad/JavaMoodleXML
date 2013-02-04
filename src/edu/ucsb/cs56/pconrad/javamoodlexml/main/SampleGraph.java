@@ -16,7 +16,7 @@ public class SampleGraph {
 
 	String questionText = "<p>Which is true about the mapping represented by this graph?</p>";
 	
-	BipartiteGraph g = new BipartiteGraph(3,3);
+	BipartiteGraph g = new BipartiteGraph(3,3,100,100);
 	g.addEdge(0,0);
 	g.addEdge(0,1);
 	g.addEdge(1,2);
